@@ -12,17 +12,22 @@ A simple and clean To Do List web application built using HTML, CSS, and JavaScr
 
 ## Technologies Used:
 
-HTML5
-CSS3
-JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
 ## How It Works:
 
 1- Type a task into the input field.
+
 2- Click the Add button to add the task to the list.
+
 3- The task is automatically saved in Local Storage.
+
 4- Click the circle button to mark a task as completed.
+
 5- Click the ❌ button to delete a task.
+
 6- All changes are saved automatically and restored on page reload.
 
 ## 💡 Future Improvements:
