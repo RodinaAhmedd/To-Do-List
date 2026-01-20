@@ -1,0 +1,98 @@
+body {
+    background-color: darkslateblue;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    min-height: 200px;
+    position: relative;
+    top: 100px;
+    left: 504px;
+    padding-bottom: 15px;
+
+}
+
+.header {
+ font-size: 30px;
+ color: rgb(21, 21, 65);
+ padding: 20px;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.textbox {
+    border-style: none;
+    outline: none;
+    background-color: rgb(221, 216, 216);
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    font-weight: 24px;
+}
+
+.add-btn {
+    border-style: none;
+    color: white;
+    background-color: orangered;
+    padding: 15px;
+    font-weight: 24px;
+    border-radius: 20px;
+    z-index: 1;
+    cursor: pointer;
+    width: 80px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    outline: none;
+}
+
+
+
+#notes li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.complete-btn {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid orangered;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  right: 20px;
+}
+
+.completed .complete-btn {
+  background-color: orangered;
+}
+
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-btn {
+  border: none;
+  background: transparent;
+  color: red;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: auto;  
+  margin-right: 10px;  
+}
